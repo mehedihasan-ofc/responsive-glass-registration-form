@@ -147,23 +147,19 @@ form .btn input:hover {
 }
 
 /* RESPONSIVE STYLE */
-@media screen and (max-width: 640px) {
-
-    .contact {
-        max-width: 100%;
-    }
-    
-    form .contact-container .input-box {
-        width: 100%;
-        margin: 5px 0;
-    }
-
-    form .container .category {
-        width: 100%;
-    }
-
-    form .contact-container {
-        max-width: 430px;
-        overflow-y: scroll;
-    }
+@media (max-width: 640px) {
+	.contact{
+		max-width: 100%;
+	}
+	form .contact-container .input-box {
+		width: 100%;
+		margin: 5px 0;
+	}
+	form .container .category{
+		width: 100%;
+	}
+	form .contact-container {
+		max-height: 430px;
+		overflow-y: scroll;
+	}
 }
